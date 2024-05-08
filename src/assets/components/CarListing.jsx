@@ -15,20 +15,23 @@ const CarsListing = () => {
   return (
     <div>
       <h1>Car Listing</h1>
+      {error && <p>{error}</p>}
       <ul>
         {cars.map(car => (
           <li key={car.id}>
-            <h2>{car.make} {car.model} {car.year}</h2>
-            <img src={require(`../images/${car.image}`)} alt={`${car.make} ${car.model} ${car.year}`} />
-            <h2><p>{`${car.make} ${car.model} ${car.year}`}</p></h2>
-            <h2><p>Price: ${car.price}</p></h2>
-            <p>Mileage: {car.mileage} miles</p>
-            <p>Features: {car.features}</p>
+            <h2>{car.brand} {car.name}</h2>
+            <img src={car.image} alt={`${car.brand} ${car.name}`} />
+            <h2><p>{`${car.brand} ${car.name}`}</p></h2>
+            <h2><strong><p>Price: ${car.price}</p></strong></h2>
+            <p>Colour: {car.colour}</p>
+            <p>Engine Type: {car.engineType}</p>
+            <p>Condition: {car.condition}</p>
           </li>
         ))}
       </ul>
     </div>
   );
 };
+
 
 export default CarsListing;
