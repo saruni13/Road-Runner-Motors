@@ -18,6 +18,10 @@ input:focus {
   display: flex;
 }
 
+button {
+  background-color: springgreen;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
