@@ -1,6 +1,6 @@
 
 .read-the-docs {
-  color: #888;
+  color: #fcfbfb;
 }
 .car-details {
   max-width: 800px;
@@ -9,7 +9,7 @@
 
 .car-details h1 {
   text-align: center;
-  color: #333;
+  color: #070000;
 }
 
 .car-details ul {
@@ -18,7 +18,7 @@
 }
 
 .car-details li {
-  border: 1px solid #ddd;
+  border: 1px solid #e8eb54;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #f9f9f9;
@@ -37,10 +37,10 @@
   margin-bottom: 10px;
 }
 
-.car-listing strong {
+.car-details strong {
   font-weight: bold;
 }
-.car-listing img.resize {
+.car-details img.resize {
   width:100px; 
   height: auto;
 }
