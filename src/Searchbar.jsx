@@ -11,7 +11,7 @@ function Searchbar() {
     const handleSubmit = async (event) => {
       event.preventDefault();
   
-      const response = await fetch(`cars?q=${query}`);
+      const response = await fetch(`http://localhost:3000/Cars?q=${query}`);
       const data = await response.json();
   
       setSearchResults(data);
