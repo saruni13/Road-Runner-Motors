@@ -1,11 +1,11 @@
 import React,{useState} from "react"
-import CarsListing from "./assets/components/CarsListing"
 import './App.css'
+import CarDetails from "./components/CarDetails"
 
 function App() {
 
   return (
-    <CarsListing/>
+    <CarDetails/>
   )
   
 }

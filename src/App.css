@@ -1,84 +1,45 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
-  color: #888;
+  color: #fcfbfb;
 }
-.car-listing {
+.car-details {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.car-listing h1 {
+.car-details h1 {
   text-align: center;
-  color: #333;
+  color: #070000;
 }
 
-.car-listing ul {
+.car-details ul {
   list-style: none;
   padding: 0;
 }
 
-.car-listing li {
-  border: 1px solid #ddd;
+.car-details li {
+  border: 1px solid #e8eb54;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #f9f9f9;
 }
 
-.car-listing img {
+.car-details img {
   max-width:  50%;;
   height: auto;
 }
 
-.car-listing p {
+.car-details p {
   margin: 0;
 }
 
-.car-listing h2 {
+.car-details h2 {
   margin-bottom: 10px;
 }
 
-.car-listing strong {
+.car-details strong {
   font-weight: bold;
 }
-.car-listing img.resize {
-  width:100px; /* you can use % */
+
   height: auto;
 }

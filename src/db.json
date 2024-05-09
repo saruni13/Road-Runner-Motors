@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "name": "Corolla",
+      "colour": "Silver",
+      "engineType": "Petrol",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiIWF_4Hz-R7W9vilDuHpZ_LiTSZ_qUCnuSPV64rLCQ&s",
+      "condition": "Brand New",
+      "price": 2000000
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "name": "Civic",
+      "colour": "Black",
+      "engineType": "Hybrid",
+      "picture": "https://www.iihs.org/cdn-cgi/image/width=636/api/ratings/model-year-images/3111/",
+      "condition": "Used",
+      "price": 1500000
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "name": "Mustang",
+      "colour": "Red",
+      "engineType": "Gasoline",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/4e9a7794-1663012415.jpg?resize=2048:*",
+      "condition": "Brand New",
+      "price": 3000000
+    },
+    {
+      "id": 4,
+      "brand": "BMW",
+      "name": "3 Series",
+      "colour": "White",
+      "engineType": "Diesel",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/BMW_G20_IMG_0167.jpg",
+      "condition": "Used",
+      "price": 1800000
+    },
+    {
+      "id": 5,
+      "brand": "Mercedes-Benz",
+      "name": "E-Class",
+      "colour": "Blue",
+      "engineType": "Petrol",
+      "picture": "https://imgd.aeplcdn.com/370x208/n/h8gf6sa_1475318.jpg?q=80",
+      "condition": "Brand New",
+      "price": 2500000
+    },
+    {
+      "id": 6,
+      "brand": "Volkswagen",
+      "name": "Golf",
+      "colour": "Gray",
+      "engineType": "Electric",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNzEIqVa-LWuAL5sCWd1tt7Hrpm-HTFl4RhLDZu9bHETchOkJb4vMaphkZg&s",
+      "condition": "Used",
+      "price": 1700000
+    },
+    {
+      "id": 7,
+      "brand": "Audi",
+      "name": "A4",
+      "colour": "Silver",
+      "engineType": "Petrol",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfzRM1b5MegcCXh7gHRi-RcNCSsxWSXwM26FVOBT3ptg&s",
+      "condition": "Brand New",
+      "price": 2800000
+    },
+    {
+      "id": 8,
+      "brand": "Lexus",
+      "name": "RX",
+      "colour": "Black",
+      "engineType": "Hybrid",
+      "picture": "https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/models/rx/2024/styles/Lexus-RX-350-visualizer-styles-750x471-LEX-RXG-MY24-0001.03.png?wid=750&hei=471&fmt=png-alpha",
+      "condition": "Used",
+      "price": 2200000
+    },
+    {
+      "id": 9,
+      "brand": "Subaru",
+      "name": "Outback",
+      "colour": "Green",
+      "engineType": "Gasoline",
+      "picture": "https://pictures.dealer.com/m/mclaughlinsubarusoa/1771/2b52fd6a3774e25c638f7bb80365afe9x.jpg?impolicy=downsize&w=568",
+      "condition": "Brand New",
+      "price": 2600000
+    },
+    {
+      "id": 10,
+      "brand": "Tesla",
+      "name": "Model S",
+      "colour": "White",
+      "engineType": "Electric",
+      "picture": "models.jpg",
+      "condition": "Brand New",
+      "price": 3500000
+    },
+    {
+      "id": 11,
+      "brand": "Chevrolet",
+      "name": "Camaro",
+      "colour": "Yellow",
+      "engineType": "Gasoline",
+      "picture": "camaro.jpg",
+      "condition": "Used",
+      "price": 2000000
+    },
+    {
+      "id": 12,
+      "brand": "Jeep",
+      "name": "Wrangler",
+      "colour": "Black",
+      "engineType": "Diesel",
+      "picture": "wrangler.jpg",
+      "condition": "Used",
+      "price": 1800000
+    },
+    {
+      "id": 13,
+      "brand": "Porsche",
+      "name": "911",
+      "colour": "Red",
+      "engineType": "Gasoline",
+      "picture": "911.jpg",
+      "condition": "Brand New",
+      "price": 4000000
+    },
+    {
+      "id": 14,
+      "brand": "Mazda",
+      "name": "CX-5",
+      "colour": "Blue",
+      "engineType": "Petrol",
+      "picture": "cx5.jpg",
+      "condition": "Used",
+      "price": 1600000
+    },
+    {
+      "id": 15,
+      "brand": "Nissan",
+      "name": "Altima",
+      "colour": "Silver",
+      "engineType": "Hybrid",
+      "picture": "altima.jpg",
+      "condition": "Brand New",
+      "price": 23000000
+    },
+    {
+      "id": 16,
+      "brand": "Hyundai",
+      "name": "Elantra",
+      "colour": "Gray",
+      "engineType": "Gasoline",
+      "picture": "elantra.jpg",
+      "condition": "Brand New",
+      "price": 1900000
+    },
+    {
+      "id": 17,
+      "brand": "Kia",
+      "name": "Sportage",
+      "colour": "White",
+      "engineType": "Petrol",
+      "picture": "sportage.jpg",
+      "condition": "Used",
+      "price": 1700000
+    },
+    {
+      "id": 18,
+      "brand": "Volvo",
+      "name": "XC90",
+      "colour": "Black",
+      "engineType": "Hybrid",
+      "picture": "xc90.jpg",
+      "condition": "Brand New",
+      "price": 3200000
+    },
+    {
+      "id": 19,
+      "brand": "Land Rover",
+      "name": "Range Rover",
+      "colour": "Silver",
+      "engineType": "Diesel",
+      "picture": "rangerover.jpg",
+      "condition": "Used",
+      "price": 2500000
+    },
+    {
+      "id": 20,
+      "brand": "Ferrari",
+      "name": "488 GTB",
+      "colour": "Red",
+      "engineType": "Gasoline",
+      "picture": "488gtb.jpg",
+      "condition": "Brand New",
+      "price": 5000000
+    }
+  ]
