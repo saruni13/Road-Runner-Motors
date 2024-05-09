@@ -1,0 +1,63 @@
+.footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add padding */
+    border-top: 2px solid #fff; /* Add a top border with a width of 2px and white color */
+    border-bottom: 2px solid #fff; /* Add a bottom border with a width of 2px and white color */
+    box-sizing: border-box; /* Include border in the element's total width and height */
+    margin-left: -20px; /* Compensate for negative margin added by container padding */
+    box-sizing: border-box; /* Include border in the element's total width and height */
+    margin-left: -20px; /* Compensate for negative margin added by container padding */
+    margin-right: -20px;
+  }
+
+  .footer-nav {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-nav li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
+  }
+  
+  .footer-nav li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+  }
+  
+  .footer-nav a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .social-links {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .social-links li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add margin between list items */
+  }
+  
+  .social-links li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+  }
+  
+  .social-links a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .copyright {
+    margin-top: 10px; /* Add margin at the top */
+    font-size: 14px; /* Set font size */
+  }  

@@ -40,7 +40,6 @@
 .car-details strong {
   font-weight: bold;
 }
-.car-details img.resize {
-  width:100px; 
+
   height: auto;
 }
