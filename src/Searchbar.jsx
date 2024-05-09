@@ -24,13 +24,13 @@ function Searchbar() {
         <div id="Searchdiv">
           <input
             type="text"
-            value={query}
+            value={query}    
             onChange={handleChange}
-            placeholder="Search..."
+            placeholder="Type name of the car you're intrerested in"
           />
           <i className='bx bx-search bx-burst bx-flip-horizontal' ></i>
           </div>
-          <button type="submit">Search</button>
+          <button type="submit">Enter</button>
         </form>
         <ul>
           {searchResults.map((result) => (
