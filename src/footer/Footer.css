@@ -50,7 +50,8 @@
   
   .social-links a {
     color: #fff; /* Set link color */
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none;
+    display:inline-flex ; /* Remove underline from links */
   }
   
   .social-links a:hover {
