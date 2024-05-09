@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const CarDetails = () => {
   const [cars, setCars] = useState([]);
-  
+
   useEffect(() => {
     fetch('db.json')
       .then(response => response.json())
-      .then(data => setCars(data.Cars))
+      .then(data => setCars(data.Cars)) 
       .catch(error => {
         console.error('Error fetching cars:', error);
       });
