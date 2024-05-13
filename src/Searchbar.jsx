@@ -1,44 +1,61 @@
-import { useState } from "react";
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 
-function Searchbar() {
-    const [query, setQuery] = useState('');
-    const [searchResults, setSearchResults] = useState([]);
-  
-    const handleChange = (event) => {
-      setQuery(event.target.value);
-    };
-  
-    const handleSubmit = async (event) => {
-      event.preventDefault();
-  
-      const response = await fetch(`http://localhost:3000/Cars?q=${query}`);
-      const data = await response.json();
-  
-      setSearchResults(data);
-    };
-  
-    return (
-      <div>
+const Searchbar = ({ cars }) => {
+    // console.log(cars)
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredCars = cars.filter((car) =>
+    car.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  return (
+    <div>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
-        <form id="searchform" onSubmit={handleSubmit}>
-        <div id="Searchdiv">
-          <input
-            type="text"
-            value={query}    
-            onChange={handleChange}
-            placeholder="Type name of the car you're intrerested in"
-          />
-          <i className='bx bx-search bx-burst bx-flip-horizontal' ></i>
+        <div id='Searchdiv'>
+      <input
+        type="text"
+        placeholder="Search cars by name"
+        value={searchTerm}
+        onChange={handleChange}
+      />
+      <i className='bx bx-search bx-burst bx-flip-horizontal' ></i>
+      </div>
+      <div>
+        {filteredCars.map((car) => (
+          <div key={car.id} className="car-details">
+            <h1>{`${car.brand} ${car.name} ${car.year}`}</h1>
+            <img src={car.picture} alt={`${car.brand} ${car.name}`} />
+            <p>{car.description}</p>
+            <ul>
+              <li>Price: ${car.price}</li>
+              <li>Colour: {car.colour}</li>
+            </ul>
+            <button>Test Drive</button>
           </div>
-          <button type="submit">Enter</button>
-        </form>
-        <ul>
-          {searchResults.map((result) => (
-            <li key={result.id}>{result.name}</li>
-          ))}
-        </ul>
+        ))}
+      </div>
     </div>
-    )
-}
+  );
+};
 
-export default Searchbar
+Searchbar.propTypes = {
+  cars: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      brand: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      year: PropTypes.number,
+      picture: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+      colour: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
+
+export default Searchbar;
