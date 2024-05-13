@@ -1,0 +1,90 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Body style */
+  
+  body {
+    background: #000;
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  /* Contact container */
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+  }
+  /* Contact info */
+  .contact-info {
+    flex-basis: 30%; 
+    text-align: center; 
+    color: #fff;
+   
+     
+  }
+  
+  /* Input fields */
+  .input,.textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: grey;
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: #f45532;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
