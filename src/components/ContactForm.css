@@ -1,0 +1,195 @@
+.header {
+    background-color: #030303;
+    color: white;
+    padding: 10px;
+    
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  .car-listing {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  
+  .car-listing h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  .car-listing ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-listing li {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .car-listing img {
+    max-width:  50%;;
+    height: auto;
+  }
+  
+  .car-listing p {
+    margin: 0;
+  }
+  
+  .car-listing h2 {
+    margin-bottom: 10px;
+  }
+  
+  .car-listing strong {
+    font-weight: bold;
+  }
+  .car-listing img.resize {
+    width:100px; /* you can use % */
+    height: auto;
+  } 
+
+/* Contact container */
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+/* Contact info */
+.contact-info {
+  flex-basis: 30%; 
+  text-align: center; 
+  color: #fff;
+ 
+   
+}
+
+/* Input fields */
+.input,.textarea {
+  width: 40%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+  transition: 0.4s ease-in-out;
+}
+
+/* Error message */
+.error-message {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.homepage-pictures{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 3px;
+}
+.picture-slot{
+  width: 100px;
+  height: 100px;
+}
+
+
+.service {
+  display: flex;
+  margin-bottom: 20px; /* Space between services */
+}
+
+.service-info {
+  flex: 1;
+}
+
+.service-info h3 {
+  margin-top: 0;
+}
+
+.service-image {
+  flex: 1;
+}
+
+.service-image img {
+  max-width: 100%;
+  height: auto;
+}
+.homepage-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.homepage-pictures {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+.picture-row {
+  display: flex; /* Use flexbox for each row */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+.picture-slot {
+  overflow: hidden;
+  width: 100px; /* Set width to 100px */
+  height: 100px; /* Set height to 100px */
+}
+
+.picture-slot img {
+  width: 100%; /* Make the image fill its slot */
+  height: 100%; /* Ensure the image occupies the full height of the slot */
+  object-fit: cover; /* Ensure the image covers the slot */
+}
+

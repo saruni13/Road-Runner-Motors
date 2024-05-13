@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Obala Steve",
+      "email": "steve@example.com",
+      "subject": "Hello",
+      "message": "This is a test message"
+    },
+    {
+      "id": "a08b",
+      "name": "nancy atieno",
+      "email": "nancy66@gmail.com",
+      "subject": "services",
+      "message": "I like the way you did the servive on my car"
+    }
+  ]
+}

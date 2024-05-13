@@ -13,13 +13,13 @@ const Footer = () => {
               <li>
                 <ul className="footer-nav">
                   <li>
-                    <Link to="/About">About Road Runner Motors</Link>
+                    <Link to="/about🔥🔥">About Road Runner Motors</Link>
                   </li>
                   <li>
-                    <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link to="/TermsOfService">Terms of Service</Link>
+                    <Link to="/terms-of-service">Terms of Service</Link>
                   </li>
                 </ul>
               </li>
@@ -30,17 +30,17 @@ const Footer = () => {
             <ul className="social-links">
               <li>
                 <a href="https://facebook.com">
-                  <i className="facebook"></i><h4>Facebook</h4>
+                  <i className="facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com">
-                  <i className="twitter"></i><h4>twitter</h4>
+                  <i className="twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="https://instagram.com">
-                  <i className="instagram"></i><h4>Instagram</h4>
+                  <i className="instagram"></i>
                 </a>
               </li>
             </ul>
